@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "channel": "preview",
+  "releases": [
+    {
+      "version": "0.2.8-preview.2",
+      "publishedAt": "2026-11-10T01:44:13.000Z",
+      "name": "Lumina 0.2.8-preview.2 · Windows x64 测试版",
+      "notes": "Lumina（原「绘意」）Windows x64 预览版。\r\n\r\n## 本次更新\r\n\r\n- 产品统一更名为 Lumina，启动文件改为 Lumina.exe；继续使用原有会话、作品及配置。\r\n- 发布与检查更新入口迁移到 YLL-CODE/lumina-releases。旧版本需要从本页手动下载一次新版。\r\n- 包含最新多图参考、稳定图号、澄清后续接、图片拖入与粘贴改进，以及界面内存与崩溃恢复修复。\r\n- 支持 .lumina-config，兼容旧 .huiyi-config；HeyRoute 文字和图片独立密钥继续可用。\r\n\r\n## 下载与升级\r\n\r\n下载 Lumina-0.2.8-preview.2-win-x64.zip，完整解压后运行 Lumina.exe。更新前先结束任务、创建完整备份并退出旧版；请解压到新文件夹，不要混入旧程序文件夹。数据仍位于 %APPDATA%\\HuiyiStudio。\r\n\r\n软件包不含 API 密钥、试用配置或个人作品。配置由维护者私下提供，切勿公开上传。普通作品备份不含密钥，换电脑需要单独导入。检查更新仅提供信息和下载入口，没有自动安装。\r\n\r\n## 验证与限制\r\n\r\n已通过 1004 项自动测试、TypeScript 检查、ZIP 完整性、Windows x64 可执行文件元数据、ASAR 文件白名单、构建来源一致性及 Mac 上实际包内模块加载核验。\r\n\r\n**本版本尚未完成 Windows 实机验收，未进行代码签名。** 目标系统为 Windows 10 22H2 / x64；Windows 输入、持续运行与真实多图成图质量仍待试用，不属于稳定版。旧版本 Windows 测试结果不代表本版已验收。\r\n\r\nSHA256SUMS.txt 用于核对下载的 ZIP；huiyi-release.json 为兼容保留名称的更新清单。自动生成的 Source code 附件只包含发布说明仓库，应用保持闭源。",
+      "manifest": {
+        "bytes": 377,
+        "sha256": "3f45093b5e278e8da4796b7df036dad9887aae511bc52180662a649b75750d16"
+      }
+    }
+  ]
+}
