@@ -3,6 +3,16 @@
   "channel": "preview",
   "releases": [
     {
+      "version": "0.2.9-preview.3",
+      "publishedAt": "2026-11-15T14:17:46Z",
+      "name": "Lumina 0.2.9-preview.3 · Windows 自动备份修复",
+      "notes": "# Lumina 0.2.9-preview.3 · Windows 自动备份修复\n\n本版修复了旧版将有效的画幅选择误判为来源无效、导致升级前备份中断的问题。\n\n如果旧版已经提示备份失败，请等创作任务结束，正常退出 Lumina，再下载并运行 Lumina-0.2.9-preview.3-win-x64.exe。首次启动时会自动备份已有工作区，之后打开原会话即可继续。\n\n后续应用内升级会自动保存草稿、备份工作区并校验安装包。备份受阻时，更新页会显示原因并保留已下载的安装包，可直接重试。ZIP 供便携使用。\n\n本版通过 1292 项离线回归、历史记录备份回放和安装包静态校验。Windows 实机安装、首启和升级后的数据保留待测试。本包未进行 Windows 代码签名。更新通道的 Windows x64 测试参与下限为 10.0.19045。\n",
+      "manifest": {
+        "bytes": 663,
+        "sha256": "e7c6e9ec50008906ea20df606c6010f45e36204e5220416ff024fa2ad32c91d7"
+      }
+    },
+    {
       "version": "0.2.9-preview.2",
       "publishedAt": "2026-11-13T10:06:59Z",
       "name": "Lumina 0.2.9-preview.2 · Windows 应用内更新验收包",
